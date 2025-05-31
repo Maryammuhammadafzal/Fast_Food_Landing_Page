@@ -1,14 +1,18 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Staatliches, Urbanist } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const staatliches = Staatliches({
+  variable: "--font-staatliches",
   subsets: ["latin"],
+  weight: ['400'],
+  display: 'swap',
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const urbanist = Urbanist({
+  variable: "--font-urbanist",
   subsets: ["latin"],
+  weight: ['100' , '200' ,'300', '400', '500' , '600' , '700', '800' , '900'],
+  display: 'swap',
 });
 
 export const metadata = {
@@ -20,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${staatliches.variable} ${urbanist.variable} antialiased`}
       >
         {children}
       </body>
