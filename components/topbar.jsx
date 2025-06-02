@@ -8,8 +8,8 @@ import { TbTruckDelivery } from "react-icons/tb";
 const Topbar = () => {
   return (
     <div className='w-full h-[40px] bg-green-700 flex justify-center items-center'>
-      <div className="w-[85%] h-auto flex justify-between items-center">
-        <div className="left w-auto flex gap-5 text-sm text-white">
+      <div className="md:w-[85%] w-full md:px-0 px-3 h-auto flex justify-between items-center">
+        <div className="left w-auto flex gap-5 lg:text-sm sm:text-xs text-white">
                 <p>100% Secure delivery without contacting the courier</p>
                 <p className='flex gap-5'><TbTruckDelivery size={20} /> Track Your Order</p>
         </div>
