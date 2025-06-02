@@ -12,7 +12,7 @@ const HeroPage = () => {
       <div className="w-full h-[40px] sm:block hidden fixed top-0 left-0 shadow-md z-50">
         <Topbar />
       </div>
-      <div className="w-full md:h-[90px] h-auto md:py-0 py-5 bg-[#333333] absolute top-20 left-0 shadow-md z-50">
+      <div className="w-full md:h-[90px] h-auto md:py-0 py-5 absolute sm:top-20 top-0 left-0  z-50">
         <Header />
       </div>
       <div className="relative w-full md:h-screen h-auto flex justify-center items-center">
