@@ -1,12 +1,14 @@
 import Image from "next/image";
 import HeroPage from "./Hero/Page";
 import FeaturesPage from "./Features/Page";
+import PopularPage from "./Popular/Page";
 
 export default function Home() {
   return (
    <div className="w-full min-h-screen">
 <HeroPage/>
 <FeaturesPage/>
+<PopularPage/>
    </div>
 
   );
