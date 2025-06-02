@@ -7,7 +7,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-staatliches);
   --font-mono: var(--font-urbanist);
-  --font-title: var(--font-zilla_slab_highlight)
+  --font-title: var(--font-zilla_slab_highlight);
+  --font-banner-sub: var(--font-kaushan-script);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -130,4 +131,7 @@ font-family: 'Urbanist' , sans-serif;
 }
 .zilla-slab-highlight {
    font-family: "Zilla Slab Highlight", serif;
+}
+.kaushan-script {
+  font-family: "Kaushan Script", cursive;
 }

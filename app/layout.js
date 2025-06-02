@@ -1,4 +1,4 @@
-import { Staatliches, Urbanist , Zilla_Slab_Highlight } from "next/font/google";
+import { Staatliches, Urbanist , Zilla_Slab_Highlight, Kaushan_Script } from "next/font/google";
 import "./globals.css";
 
 const staatliches = Staatliches({
@@ -21,6 +21,12 @@ const zillaSlabHighlight = Zilla_Slab_Highlight({
   weight: [ '400', '700'],
   display: 'swap',
 });
+const kaushanScript = Kaushan_Script({
+  variable: "--font-kaushan-script",
+  subsets: ["latin"],
+  weight: [ '400'],
+  display: 'swap',
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -31,7 +37,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${staatliches.variable} ${urbanist.variable} ${zillaSlabHighlight.variable} antialiased`}
+        className={`${staatliches.variable} ${urbanist.variable} ${zillaSlabHighlight.variable} ${kaushanScript.variable} antialiased`}
       >
         {children}
       </body>
