@@ -1,4 +1,4 @@
-import { Staatliches, Urbanist } from "next/font/google";
+import { Staatliches, Urbanist , Zilla_Slab_Highlight } from "next/font/google";
 import "./globals.css";
 
 const staatliches = Staatliches({
@@ -12,6 +12,13 @@ const urbanist = Urbanist({
   variable: "--font-urbanist",
   subsets: ["latin"],
   weight: ['100' , '200' ,'300', '400', '500' , '600' , '700', '800' , '900'],
+  display: 'swap',
+});
+
+const zilla = Zilla_Slab_Highlight({
+  variable: "--font-zilla_slab_highlight",
+  subsets: ["latin"],
+  weight: [ '400', '700'],
   display: 'swap',
 });
 

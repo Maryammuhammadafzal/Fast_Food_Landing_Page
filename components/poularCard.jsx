@@ -46,92 +46,77 @@ const PopularCard = () => {
             className="w-full  h-auto"
           >
             <div
-              className="popular-card group w-[270px] h-[320px] mb-4 mx-auto rounded-lg relative font-['Jost'] bg-cover bg-center bg-amber-300"
+              className="popular-card mx-auto w-[300px] h-[400px] rounded-lg relative font-['Jost'] bg-cover bg-center bg-[#FFB300]"
               style={{ backgroundImage: `url(${PopularBgImage.src})` }}
             >
               {/* Image Container */}
-              <div className="w-[250px] h-[300px]">
-                <img
-                  src={PopularImage1}
-                  alt="card"
-                  className="w-[270px] h-[230px]"
-                />
+              <div className="w-full h-full p-3 flex flex-col gap-5 items-center">
+                <img src={PopularImage1.src} alt="card" className="w-[270px] h-[230px]" />
+
                 {/* Content */}
-                <div className="absolute inset-0 z-20 flex flex-col justify-end pb-10 pl-3 pr-6 text-white">
-                  <h3 className="text-lg font-bold">
-                    Truffle Mushroom Risotto"
+                <div className="flex flex-col justify-center gap-2 items-center w-full h-auto">
+                  <h3 className="text-xl font-bold bg-white zilla uppercase text-[#FFB300]">
+                    Best Beef Burger
                   </h3>
-                  <p className="text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  <p className="text-sm text-center text-white urbanist">
+                    A team of dreamers and doers building unique interactive music and art.
                   </p>
                 </div>
               </div>
             </div>
             <div
-              className="popular-card group w-[270px] h-[320px] mx-auto rounded-lg relative font-['Jost'] bg-cover bg-center bg-amber-300"
+              className="popular-card mx-auto w-[300px] h-[400px] rounded-lg relative font-['Jost'] bg-cover bg-center bg-[#FFB300]"
               style={{ backgroundImage: `url(${PopularBgImage.src})` }}
             >
               {/* Image Container */}
-              <div className="w-[250px] h-[300px]">
-                <img
-                  src={PopularImage2}
-                  alt="card"
-                  className="w-[270px] h-[320px] object-cover"
-                />
+              <div className="w-full h-full p-3 flex flex-col gap-5 items-center">
+                <img src={PopularImage2.src} alt="card" className="w-[270px] h-[230px]" />
 
                 {/* Content */}
-                <div className="absolute inset-0 z-20 flex flex-col justify-end pb-10 pl-3 pr-6 text-white">
-                  <h3 className="text-lg font-bold">
-                    Truffle Mushroom Risotto"
+                <div className="flex flex-col justify-center gap-2 items-center w-full h-auto">
+                  <h3 className="text-xl font-bold bg-white zilla uppercase text-[#FFB300]">
+                   ALFAREDO PASTA
                   </h3>
-                  <p className="text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  <p className="text-sm text-center text-white urbanist">
+                    A team of dreamers and doers building unique interactive music and art.
                   </p>
                 </div>
               </div>
             </div>
             <div
-              className="popular-card group w-[270px] h-[320px] mx-auto rounded-lg relative font-['Jost'] bg-cover bg-center bg-amber-300"
+              className="popular-card mx-auto w-[300px] h-[400px] rounded-lg relative font-['Jost'] bg-cover bg-center bg-[#FFB300]"
               style={{ backgroundImage: `url(${PopularBgImage.src})` }}
             >
               {/* Image Container */}
-              <div className="w-[250px] h-[300px]">
-                <img
-                  src={PopularImage3}
-                  alt="card"
-                  className="w-[270px] h-[320px] object-cover"
-                />
+              <div className="w-full h-full p-3 flex flex-col gap-5 items-center">
+                <img src={PopularImage3.src} alt="card" className="w-[270px] h-[230px]" />
 
                 {/* Content */}
-                <div className="absolute inset-0 z-20 flex flex-col justify-end pb-10 pl-3 pr-6 text-white">
-                  <h3 className="text-lg font-bold">
-                    Truffle Mushroom Risotto"
+                <div className="flex flex-col justify-center gap-2 items-center w-full h-auto">
+                  <h3 className="text-xl font-bold bg-white zilla uppercase text-[#FFB300]">
+                    DELICIOUS PIZZA
                   </h3>
-                  <p className="text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  <p className="text-sm text-center text-white urbanist">
+                    A team of dreamers and doers building unique interactive music and art.
                   </p>
                 </div>
               </div>
             </div>
             <div
-              className="popular-card group w-[270px] h-[320px] mx-auto rounded-lg relative font-['Jost'] bg-cover bg-center bg-amber-300"
+              className="popular-card mx-auto w-[300px] h-[400px] rounded-lg relative font-['Jost'] bg-cover bg-center bg-[#FFB300]"
               style={{ backgroundImage: `url(${PopularBgImage.src})` }}
             >
               {/* Image Container */}
-              <div className="w-full h-full py-4 px-3">
-                <img
-                  src={PopularImage4}
-                  alt="card"
-                  className="w-[270px] h-[320px] object-cover"
-                />
+              <div className="w-full h-full p-3 flex flex-col gap-5 items-center">
+                <img src={PopularImage4.src} alt="card" className="w-[270px] h-[230px]" />
 
                 {/* Content */}
-                <div className="absolute inset-0 z-20 flex flex-col justify-end pb-10 pl-3 pr-6 text-white">
-                  <h3 className="text-lg font-bold">
-                    Truffle Mushroom Risotto"
+                <div className="flex flex-col justify-center gap-2 items-center w-full h-auto">
+                  <h3 className="text-xl font-bold bg-white zilla uppercase text-[#FFB300]">
+                    Spicy Chicken Wings
                   </h3>
-                  <p className="text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  <p className="text-sm text-center text-white urbanist">
+                    A team of dreamers and doers building unique interactive music and art.
                   </p>
                 </div>
               </div>
@@ -143,17 +128,21 @@ const PopularCard = () => {
           {Popular_Card_data.map(({ image, title, description }, index) => (
             <div
               key={index}
-              className="popular-card w-[300px] h-[400px] rounded-lg relative font-['Jost'] bg-cover bg-center bg-amber-300"
+              className="popular-card w-[300px] h-[400px] rounded-lg relative font-['Jost'] bg-cover bg-center bg-[#FFB300]"
               style={{ backgroundImage: `url(${PopularBgImage.src})` }}
             >
               {/* Image Container */}
-              <div className="w-full h-full p-3 flex flex-col items-center">
+              <div className="w-full h-full p-3 flex flex-col gap-5 items-center">
                 <img src={image} alt="card" className="w-[270px] h-[230px]" />
 
                 {/* Content */}
-                <div className="flex flex-col justify-center items-center w-full h-auto">
-                  <h3 className="text-2xl font-bold bg-white staatliches ">{title}</h3>
-                  <p className="text-sm">{description}</p>
+                <div className="flex flex-col justify-center gap-2 items-center w-full h-auto">
+                  <h3 className="text-xl font-bold bg-white zilla uppercase text-[#FFB300]">
+                    {title}
+                  </h3>
+                  <p className="text-sm text-center text-white urbanist">
+                    {description}
+                  </p>
                 </div>
               </div>
             </div>
