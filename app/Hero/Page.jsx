@@ -9,6 +9,9 @@ const HeroPage = () => {
       style={{ backgroundImage: `url(${HeroImage.src})` }}
     >
       <div className="w-full md:h-[90px] h-auto md:py-0 py-5 bg-[#333333] fixed top-0 left-0 shadow-md z-50">
+        <Topbar />
+      </div>
+      <div className="w-full md:h-[90px] h-auto md:py-0 py-5 bg-[#333333] absolute top-0 left-0 shadow-md z-50">
         <Header />
       </div>
       <div className="relative w-full md:h-screen h-auto flex justify-center items-center">
