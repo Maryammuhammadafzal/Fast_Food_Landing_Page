@@ -9,7 +9,7 @@ const BannerPage = () => {
     <div className="w-full h-auto max-xl:py-3 flex items-center bg-radial from-[#525151] to-[#222222]  ">
       <div className="w-full  h-auto text-white bg-cover bg-center "
           style={{backgroundImage : `url(${BannerBg.src})`}}>
-        <div className="content w-full  max-md:gap-3 flex justify-between items-center h-full">
+        <div className="content w-full  max-md:gap-3 flex justify-between px-5 items-center h-full">
           {/* Content */}
           <div
             data-aos="fade-right"

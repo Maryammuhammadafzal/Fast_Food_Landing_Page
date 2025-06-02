@@ -5,6 +5,7 @@ import PopularPage from "./Popular/Page";
 import AboutPage from "./About/Page";
 import SignaturePage from "./Signature/Page";
 import BannerPage from "./Banner/Page";
+import TestimonialPage from "./Testimonial/Page";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
 <AboutPage/>
 <SignaturePage/>
 <BannerPage/>
+<TestimonialPage/>
    </div>
 
   );
