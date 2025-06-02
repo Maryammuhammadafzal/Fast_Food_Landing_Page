@@ -1,4 +1,4 @@
-import { Staatliches, Urbanist , Zilla_Slab_Highlight, Kaushan_Script } from "next/font/google";
+import { Staatliches, Urbanist , Zilla_Slab_Highlight, Kaushan_Script, Cabin_Sketch } from "next/font/google";
 import "./globals.css";
 
 const staatliches = Staatliches({
@@ -27,6 +27,12 @@ const kaushanScript = Kaushan_Script({
   weight: [ '400'],
   display: 'swap',
 });
+const cabinSketch = Cabin_Sketch({
+  variable: "--font-cabin-sketch",
+  subsets: ["latin"],
+  weight: [ '700'],
+  display: 'swap',
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -37,7 +43,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${staatliches.variable} ${urbanist.variable} ${zillaSlabHighlight.variable} ${kaushanScript.variable} antialiased`}
+        className={`${staatliches.variable} ${urbanist.variable} ${zillaSlabHighlight.variable} ${kaushanScript.variable} ${cabinSketch.variable} antialiased`}
       >
         {children}
       </body>
