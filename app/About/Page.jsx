@@ -1,25 +1,27 @@
-import React from 'react'
-import AboutImage from "../../public/about-image.png"
+import React from "react";
+import AboutImage from "../../public/about-image.png";
+import { Button } from "@/components/ui/button";
+import SubHeading from "@/components/subHeading";
+import Heading from "@/components/heading";
+import Image from "next/image";
 const AboutPage = () => {
   return (
-   <div className="about w-full h-auto flex justify-center items-start">
-      <div className="w-[85%] px-3 sm:w-[85%]  h-auto flex md:flex-row flex-col justify-center items-center md:gap-3 gap-6">
-        <div className="right lg:mr-0 xl:mr-20 md:w-[50%] w-full h-auto space-y-3 flex-col flex justify-center md:order-2 order-1">
-          <Subheading text="About Us" textColor="text-[#007BFF]"/>
-          <Heading text="Who We Are" textColor="[#4B5563]" />
-          <p className="font-normal txet-sm md:text-[16px] sm:tracking-wide text-[#4B5563]">
-            At DigitalHorizon, we’re more than a digital agency—we’re your
-            growth partners. With a team of creative thinkers, tech experts, and
-            marketing strategists, we deliver transformative solutions that set
-            your business apart.
+    <div className="about w-full max-w-[1500px] mx-auto h-auto flex justify-center items-center">
+      <div className="w-full px-4 sm:w-[85%] h-auto flex md:flex-row flex-col justify-center items-center md:gap-3 gap-6">
+        <div className="right  md:w-[50%] w-full h-auto flex-col flex justify-center ">
+          <SubHeading text="About Our Food" textColor="text-[#007BFF]" />
+          <Heading text="Where Quality Meet Excellent Service" />
+          <p className="font-normal max-w-lg urbanist text-sm sm:text-base sm:tracking-wide text-[#4B5563]">
+            It's the perfect dining experience where every dish is crafted with
+            fresh, high-quality Experience quick and efficient service that
+            ensures your food is servead fresh It's the dining experience where
+            every dish is crafted with fresh, high-quality ingredients.
           </p>
-          <div>
-            <Button className=" max-sm:px-4 max-sm:py-4 py-6 px-8 rounded-lg text-white bg-[#007BFF] font-semibold text-[16px] max-sm:text-sm hover:bg-[#1B1F3B] hover:scale-x-90">
-              More About Us
-            </Button>
+          <div className="button my-5">
+            <Button className="px-9">Veiw Menu</Button>
           </div>
         </div>
-          <div className="left md:w-[50%] w-full h-auto flex justify-center items-center md:order-1 order-2">
+        <div className="left md:w-[50%] w-full h-auto flex justify-center items-center ">
           <Image
             src={AboutImage}
             alt="Burger"
@@ -28,7 +30,7 @@ const AboutPage = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default AboutPage
+export default AboutPage;
