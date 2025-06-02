@@ -1,22 +1,22 @@
-import Heading from "@/components/heading";
-import PopularCard from "@/components/poularCard";
-import SubHeading from "@/components/subHeading";
-import React from "react";
+import Heading from '@/components/heading'
+import SignatureCard from '@/components/signatureCard'
+import SubHeading from '@/components/subHeading'
+import React from 'react'
 
-const PopularPage = () => {
+const SignaturePage = () => {
   return (
     <div className="w-full max-w-[1500px] mx-auto h-auto my-20 flex justify-center items-center">
       <div className="md:w-[85%] w-full px-3 md:px-0 flex flex-col gap-6 h-auto">
         <div className="heading flex md:items-start items-center flex-col">
-          <SubHeading text="Crispy, Every Bite Taste" />
-          <Heading text="Popular Food Items" />
+          <SubHeading text="Flavour With, More Spice" />
+          <Heading text="Signature Items" />
         </div>
         <div className="cards flex md:flex-wrap justify-center gap-6 max-w-7xl  items-center ">
-                <PopularCard/>
+                <SignatureCard/>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default PopularPage;
+export default SignaturePage

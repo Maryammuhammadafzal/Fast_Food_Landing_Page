@@ -18,7 +18,7 @@ const AboutPage = () => {
             every dish is crafted with fresh, high-quality ingredients.
           </p>
           <div className="button my-5">
-            <Button className="px-9">Veiw Menu</Button>
+            <Button className="px-9 drop-shadow-2xl">Veiw Menu</Button>
           </div>
         </div>
         <div className="left md:w-[50%] w-full h-auto flex justify-center items-center ">
