@@ -55,7 +55,7 @@ const PopularCard = () => {
 
                 {/* Content */}
                 <div className="flex flex-col justify-center gap-2 items-center w-full h-auto">
-                  <h3 className="text-xl font-bold bg-white zilla uppercase text-[#FFB300]">
+                  <h3 className="text-xl font-bold text-white zilla-slab-highlight uppercase bg-[#FFB300]">
                     Best Beef Burger
                   </h3>
                   <p className="text-sm text-center text-white urbanist">
@@ -74,7 +74,7 @@ const PopularCard = () => {
 
                 {/* Content */}
                 <div className="flex flex-col justify-center gap-2 items-center w-full h-auto">
-                  <h3 className="text-xl font-bold bg-white zilla uppercase text-[#FFB300]">
+                  <h3 className="text-xl font-bold text-white zilla-slab-highlight uppercase bg-[#FFB300]">
                    ALFAREDO PASTA
                   </h3>
                   <p className="text-sm text-center text-white urbanist">
@@ -93,7 +93,7 @@ const PopularCard = () => {
 
                 {/* Content */}
                 <div className="flex flex-col justify-center gap-2 items-center w-full h-auto">
-                  <h3 className="text-xl font-bold bg-white zilla uppercase text-[#FFB300]">
+                  <h3 className="text-xl font-bold text-white zilla-slab-highlight uppercase bg-[#FFB300]">
                     DELICIOUS PIZZA
                   </h3>
                   <p className="text-sm text-center text-white urbanist">
@@ -112,7 +112,7 @@ const PopularCard = () => {
 
                 {/* Content */}
                 <div className="flex flex-col justify-center gap-2 items-center w-full h-auto">
-                  <h3 className="text-xl font-bold bg-white zilla uppercase text-[#FFB300]">
+                  <h3 className="text-xl font-bold text-white zilla-slab-highlight uppercase bg-[#FFB300]">
                     Spicy Chicken Wings
                   </h3>
                   <p className="text-sm text-center text-white urbanist">
@@ -137,7 +137,7 @@ const PopularCard = () => {
 
                 {/* Content */}
                 <div className="flex flex-col justify-center gap-2 items-center w-full h-auto">
-                  <h3 className="text-xl font-bold bg-white zilla uppercase text-[#FFB300]">
+                  <h3 className="text-xl font-bold text-white zilla-slab-highlight uppercase bg-[#FFB300]">
                     {title}
                   </h3>
                   <p className="text-sm text-center text-white urbanist">

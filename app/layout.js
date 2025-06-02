@@ -15,7 +15,7 @@ const urbanist = Urbanist({
   display: 'swap',
 });
 
-const zilla = Zilla_Slab_Highlight({
+const zillaSlabHighlight = Zilla_Slab_Highlight({
   variable: "--font-zilla_slab_highlight",
   subsets: ["latin"],
   weight: [ '400', '700'],
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${staatliches.variable} ${urbanist.variable} antialiased`}
+        className={`${staatliches.variable} ${urbanist.variable} ${zillaSlabHighlight.variable} antialiased`}
       >
         {children}
       </body>
