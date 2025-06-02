@@ -7,7 +7,7 @@ import PopularImage3 from "../public/popular-image3.png"
 import PopularImage4 from "../public/popular-image4.png"
 import PopularBgImage from "../public/popular-bg.png"
 
-const poularCard = () => {
+const PopularCard = () => {
         let Popular_Card = [
                 {
                         image: PopularImage1,
@@ -153,4 +153,4 @@ const poularCard = () => {
   )
 }
 
-export default poularCard
+export default PopularCard
