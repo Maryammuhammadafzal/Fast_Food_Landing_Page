@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 const TestimonialCard = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     autoScroll: true,
@@ -19,7 +19,7 @@ const TestimonialCard = () => {
 
     <Slider {...settings} className="w-full relative h-[400px]">
       <div className="w-[420px] min-h-[200px] h-auto flex flex-col gap-5 justify-center items-center">
-        <div className="userimage w-[120px] h-[120px] rounded-full">
+        <div className="userimage w-[120px] h-[120px] rounded-full mx-auto">
           <img
             src={UserImage.src}
             alt="user-profile-image"
@@ -40,7 +40,7 @@ const TestimonialCard = () => {
         </div>
       </div>
       <div className="w-[420px] min-h-[200px] h-auto flex flex-col gap-5 justify-center items-center">
-        <div className="userimage w-[120px] h-[120px] rounded-full">
+        <div className="userimage w-[120px] h-[120px] rounded-full mx-auto">
           <img
             src={UserImage.src}
             alt="user-profile-image"
@@ -61,7 +61,7 @@ const TestimonialCard = () => {
         </div>
       </div>
       <div className="w-[420px] min-h-[200px] h-auto flex flex-col gap-5 justify-center items-center">
-        <div className="userimage w-[120px] h-[120px] rounded-full">
+        <div className="userimage w-[120px] h-[120px] rounded-full mx-auto">
           <img
             src={UserImage.src}
             alt="user-profile-image"
@@ -82,7 +82,7 @@ const TestimonialCard = () => {
         </div>
       </div>
       <div className="w-[420px] min-h-[200px] h-auto flex flex-col gap-5 justify-center items-center">
-        <div className="userimage w-[120px] h-[120px] rounded-full">
+        <div className="userimage w-[120px] h-[120px] rounded-full mx-auto">
           <img
             src={UserImage.src}
             alt="user-profile-image"
