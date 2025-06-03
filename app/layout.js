@@ -1,5 +1,7 @@
 import { Staatliches, Urbanist , Zilla_Slab_Highlight, Kaushan_Script, Cabin_Sketch } from "next/font/google";
 import "./globals.css";
+import HeroPage from "./Hero/Page";
+import Footer from "@/components/footer";
 
 const staatliches = Staatliches({
   variable: "--font-staatliches",
@@ -45,7 +47,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${staatliches.variable} ${urbanist.variable} ${zillaSlabHighlight.variable} ${kaushanScript.variable} ${cabinSketch.variable} antialiased`}
       >
-        {children}
+        <HeroPage/>
+       <div className="section">
+         {children}
+       </div>
+        <Footer/>
       </body>
     </html>
   );

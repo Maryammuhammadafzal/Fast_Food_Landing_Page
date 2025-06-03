@@ -9,9 +9,11 @@ const TestimonialCard = () => {
     dots: false,
     infinite: true,
     speed: 500,
+    autoplay: true,
     autoScroll: true,
     slidesToShow: 2,
     slidesToScroll: 1,
+    arrows: false,
   };
 
   return (
