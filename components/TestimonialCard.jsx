@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import UserImage from "../public/user-image.png";
 import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
-const TestimonialCard = () => {
+const TestimonialCard = ({sliderRef}) => {
   var settings = {
     dots: false,
     infinite: true,
@@ -14,12 +14,21 @@ const TestimonialCard = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     arrows: false,
+    responsive : [
+      {
+        breakpoint: 620,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+    ]
   };
 
   return (
-    <div className="w-full h-auto flex gap-3 justify-center items-center overflow-hidden">
+    <div  className="w-full h-auto flex gap-3 justify-center items-center overflow-hidden">
 
-    <Slider {...settings} className="w-full relative h-[400px]">
+    <Slider ref={sliderRef} {...settings} className="w-full relative h-[400px]">
       <div className="w-[420px] min-h-[200px] h-auto flex flex-col gap-5 justify-center items-center">
         <div className="userimage w-[120px] h-[120px] rounded-full mx-auto">
           <img
