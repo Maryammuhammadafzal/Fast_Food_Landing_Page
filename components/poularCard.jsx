@@ -6,8 +6,14 @@ import PopularImage4 from "../public/popular-image4.png";
 import PopularBgImage from "../public/popular-bg.png";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { useEffect, useState } from "react";
 
 const PopularCard = () => {
+  const [width , setWidth] = useState(null);
+  
+  useEffect(()=> {
+    setWidth(window.innerWidth);
+  }) 
   let Popular_Card_data = [
     {
       image: PopularImage1.src,
@@ -36,7 +42,7 @@ const PopularCard = () => {
   ];
   return (
     <>
-      {window.innerWidth <= 768 ? (
+      {width <= 768 ? (
         <>
           <Carousel
             showArrows={true}

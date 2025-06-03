@@ -8,7 +8,7 @@ import { IoIosHeartEmpty } from "react-icons/io";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Button } from "./ui/button";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const SignatureCard = () => {
   const features_data = [
@@ -16,7 +16,11 @@ const SignatureCard = () => {
     { id: 2, name: "Card 2" },
     { id: 3, name: "Card 3" },
   ];
+const [width , setWidth] = useState(null);
 
+useEffect(()=> {
+  setWidth(window.innerWidth);
+}) 
   const [likedCards, setLikedCards] = useState({});
 
   const toggleLike = (id) => {
@@ -51,7 +55,7 @@ const SignatureCard = () => {
   ];
   return (
     <>
-      {window.innerWidth <= 768 ? (
+      {width <= 768 ? (
         <>
           <Carousel
             showArrows={true}
