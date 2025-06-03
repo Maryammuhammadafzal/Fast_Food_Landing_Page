@@ -1,6 +1,11 @@
 import React from 'react'
 import { FaArrowRightLong } from 'react-icons/fa6';
 import FeaturesBgImage from "../public/features-bg.png";
+ import { FaFacebook } from "react-icons/fa"; 
+ import { TbBrandWhatsappFilled } from "react-icons/tb";
+ import { FaSquareInstagram } from "react-icons/fa6";
+ import { FaXTwitter } from "react-icons/fa6";
+ import { ImLinkedin } from "react-icons/im";
 const Footer = () => {
    let contact_data = [
     {
@@ -31,7 +36,7 @@ const Footer = () => {
                 Logo
               </h3>
             </div>
-            <p className="text-[14px] my-5 max-sm:w-[70%] max-sm:text-center font-[Nunito Sans] max-md:text-[14px] max-sm:text-[12px] max-sm:w-full font-[400]">
+            <p className="text-[14px] my-5 max-sm:w-[70%] px-3 max-sm:text-center font-[Nunito Sans] max-md:text-[14px] max-sm:text-[12px] max-sm:w-full font-[400]">
               At [Your Brand Name], we believe that food is more than just
               sustenance; it’s an experience. We bring you a carefully crafted
               menu, designed to tantalize your taste buds and satisfy your
@@ -98,9 +103,13 @@ const Footer = () => {
             <h4 className=" text-yellow-400 staatliches text-2xl font-bold capitalize max-lg:text-xl  max-md:text-lg">
               Contact
             </h4>
-            <div className='socialLinks flex flx-wrap'>
-
-            </div>
+            <div className="left w-auto flex flex-wrap gap-5 text-white">
+                            <FaFacebook size={15} />
+                            <FaXTwitter size={15} />
+                            <ImLinkedin size={15} />
+                            <FaSquareInstagram size={15} />
+                            <TbBrandWhatsappFilled size={15} />
+                    </div>
           </div>
         </div>
       </div>
