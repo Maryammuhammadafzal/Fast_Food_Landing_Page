@@ -28,7 +28,7 @@ const Footer = () => {
           className="w-full h-full mx-auto  absolute top-0 left-0  bg-cover bg-center opacity-30 -z-10"
           style={{ backgroundImage: `url(${FeaturesBgImage.src})` }}
         ></div>
-        <div className="footerContent xl:w-[85%] py-10 h-auto flex flex-wrap justify-between mb-3 ">
+        <div className="footerContent xl:w-[85%] py-10 h-auto w-full px-3 flex flex-wrap justify-between mb-3 ">
           <div className="left w-[35%] max-sm:w-[100%] max-[900px]:w-[45%] max-sm:flex max-sm:flex-col   p-3 h-auto">
             {/* Logo */}
             <div className="logo ">
