@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
 
           <div className="middle max-sm:w-auto w-[20%] p-3 h-auto ">
-            <h4 className=" text-yellow-400 staatliches text-2xl font-bold capitalize max-lg:text-xl max-md:text-lg">
+            <h4 className=" text-yellow-400 staatliches text-2xl font-bold capitalize max-lg:text-xl max-md:text-lg max-sm:text-base">
               Quick Links
             </h4>
             <ul className="list-none py-2 mt-5 gap-2 flex flex-col ">
@@ -77,7 +77,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="middle max-sm:w-auto w-[25%] p-3 h-auto">
-            <h4 className=" text-yellow-400 staatliches text-2xl font-bold capitalize max-lg:text-xl max-md:text-lg">
+            <h4 className=" text-yellow-400 staatliches text-2xl font-bold capitalize max-lg:text-xl max-md:text-lg max-sm:text-base">
               Get In Touch
             </h4>
 
@@ -112,11 +112,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="copyright flex xl:w-[85%] w-full py-10 gap-5 h-auto justify-between mb-3 flex-wrap">
-          <p className="text-sm ">
+        <div className="copyright flex xl:w-[85%] w-full max-sm:justify-center px-3 py-10 gap-5 h-auto justify-between mb-3 flex-wrap">
+          <p className="text-sm max-sm:text-xs">
             © 2021 all copyright reserved. All Rights Reserved.
           </p>
-          <ul className="text-sm flex gap-2">
+          <ul className="text-sm max-sm:text-xs flex gap-2">
             <li>Term Of Services</li>
             <li>Privacy Policy</li>
             <li>Cookie Policy</li>
